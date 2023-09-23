@@ -5,13 +5,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: #6563ff;
 }
+
 .wrapper{
     height: 400px;
     width: 400px;
@@ -91,4 +93,13 @@ body{
 }
 .card.flip .back-view{
     transform: rotateY(0);
+}
+
+.copyright{
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+}
+.copyright > a{
+    
 }
